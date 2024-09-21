@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Framework">
+    <test name="E2E Test Framework" >
+        <classes>
+            <class name="testCases.TestCase1">
+            </class>
+        </classes>
+    </test>
+</suite>
