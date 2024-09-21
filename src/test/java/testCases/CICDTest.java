@@ -15,5 +15,6 @@ public class CICDTest {
         options.addArguments("--headless");
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.google.co.in/");
+        System.out.println(driver.getTitle());
     }
 }
