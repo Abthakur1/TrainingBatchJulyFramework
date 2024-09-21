@@ -6,13 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class BaseTest extends AbstractComponents {
+public class BaseTest {
     public static WebDriver driver;
-
-    public BaseTest(WebDriver driver){
-        super(driver);
-        this.driver = driver;
-    }
 
     public static void initialization() {
         driver = new ChromeDriver();
