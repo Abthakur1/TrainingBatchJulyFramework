@@ -3,7 +3,7 @@
 <suite name="Automation Framework">
     <test name="E2E Test Framework" >
         <classes>
-            <class name="testCases.TestCase1">
+            <class name="testCases.CICDTest">
             </class>
         </classes>
     </test>
